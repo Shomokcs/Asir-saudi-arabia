@@ -1,0 +1,98 @@
+body {
+  font-family: 'Cairo', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-image: url('https://i.pinimg.com/1200x/5a/6d/bc/5a6dbc9d0e399010b1076920c2f2c44c.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover; /* تعديل هنا لجعل الخلفية ممتلئة */
+  background-color: #f0e6d2;
+  color: #006000;
+  text-align: center;
+  padding: 20px;
+}
+
+
+.card {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(6px);
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin: auto;
+  max-width: 400px;
+  font-family: 'Cairo', sans-serif;
+  color: #000000;
+}
+
+button {
+  background: #076600;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #023605;
+}
+
+input, select {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #076600;
+}
+
+#map {
+  height: 300px;
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+/* تنسيقات خاصة لعرض المدن */
+.city-container {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.city-block {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.city-name {
+  font-size: 1.5em;
+  color: #050947;
+  margin-bottom: 8px;
+}
+
+.progress-bar {
+  background: #eee;
+  border-radius: 12px;
+  height: 20px;
+  overflow: hidden;
+  box-shadow: inset 0 0 5px #ddd9d9;
+  margin-bottom: 5px;
+}
+
+.progress-fill {
+  background: #023605;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.city-details {
+  font-size: 0.9em;
+  line-height: 1.3;
+  color: #000000;
+}
