@@ -108,7 +108,6 @@ function replyBot() {
   const question = document.getElementById('question').value;
   let reply = "شكرًا لسؤالك! لمزيد من التفاصيل، سيتم التواصل معك قريبًا.";
   if(question.includes("أفضل")) reply = "أفضل موقع حسب نوع مشروعك سيكون في أبها أو خميس مشيط حسب دراسة السوق.";
-  if(question.includes("تمويل")) reply = "يمكنك التواصل مع صندوق التنمية السياحي أو بنك التنمية الاجتماعية للحصول على تمويل.";
   document.getElementById('botReply').innerText = reply;
 }
 function showTeam() {
